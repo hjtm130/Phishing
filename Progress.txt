@@ -1,0 +1,43 @@
+データセット[2] を使用
+・ロジスティック回帰
+・ハイパーパラメータチューニング
+・決定木
+によるフィッシングサイトの検出を実装
+
+大まかな手順
+・Web Scraper でサイトの情報を取得
+・取得した情報からフィッシングサイトか分類
+・結果に応じてアクセスの可否
+
+その他考慮事項
+・QRコードから直接アクセスする際の対策
+
+URL, ソースコードから特徴抽出
+[1] https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques.git
+
+データセット:Phishing
+[2] https://archive.ics.uci.edu/dataset/327/phishing+websites
+[3] https://www.phishtank.com/developer_info.php
+[4] https://data.mendeley.com/datasets/72ptz43s9v/1
+
+データセット:not Phishing
+[5] https://www.unb.ca/cic/datasets/url-2016.html
+
+機械学習手法一覧
+[6] https://www.tryeting.jp/column/1028/
+
+スクレイピング手法
+[7] https://qiita.com/mashmoeiar11/items/36e0de1491d5bf5b153d
+
+関連研究
+[8] An Approach for Detecting Phishing Attacks Using Machine Learning Techniques
+https://www.researchgate.net/publication/344947249_An_Approach_for_Detecting_Phishing_Attacks_Using_Machine_Learning_Techniques
+[9] H. Shirazi, K. Haefner and I. Ray, "Fresh-Phish: A Framework for Auto-Detection of Phishing Websites," 2017 IEEE International Conference on Information Reuse and Integration (IRI), San Diego, CA, USA, 2017, pp. 137-143, doi: 10.1109/IRI.2017.40. keywords: {Electronic mail;Uniform resource locators;Support vector machines;Internet;Kernel;Malware;Phishing;Machine Learning;TensorFlow},
+[10] P. Yang, G. Zhao and P. Zeng, "Phishing Website Detection Based on Multidimensional Features Driven by Deep Learning," in IEEE Access, vol. 7, pp. 15196-15209, 2019, doi: 10.1109/ACCESS.2019.2892066.
+keywords: {Phishing;Feature extraction;Uniform resource locators;Deep learning;Blacklisting;Internet;Phishing website detection;convolutional neural network;long short-term memory network;semantic feature;machine learning},
+[11] Y. Swathi, P. Hegde, P. Sravani and P. Hegde, "Detection of Phishing Websites Using Machine Learning," 2023 International Conference on the Confluence of Advancements in Robotics, Vision and Interdisciplinary Technology Management (IC-RVITM), Bangalore, India, 2023, pp. 1-6, doi: 10.1109/IC-RVITM60032.2023.10435211. keywords: {Uniform resource locators;Training;Support vector machines;Machine learning algorithms;Technology management;Phishing;Random forests;Phishing;URL;Wrapper Features Selection;Machine Learning},
+DOI: 10.17148/IJARCCE.2022.11695
+[12] M. F. Ansari, A. Panigrahi, G. Jakka, A. Pati and K. Bhattacharya, "Prevention of Phishing attacks using AI Algorithm," 2022 2nd Odisha International Conference on Electrical Power Engineering, Communication and Computing Technology (ODICON), Bhubaneswar, India, 2022, pp. 1-5, doi: 10.1109/ODICON54453.2022.10010185. keywords: {Training;Deep learning;Phishing;Computer architecture;Feature extraction;Data models;Internet;Artificial Intelligence;Deep Learning;LSTM;Anti-phishing;Cyber attack},
+[13] Phishing web site detection using diverse machine learning algorithms
+https://www.emerald.com/insight/content/doi/10.1108/EL-05-2019-0118/full/html
+[14] F. Salahdine, Z. El Mrabet and N. Kaabouch, "Phishing Attacks Detection A Machine Learning-Based Approach," 2021 IEEE 12th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, USA, 2021, pp. 0250-0255, doi: 10.1109/UEMCON53757.2021.9666627.キーワード: {サポートベクターマシン;業績評価機械学習アルゴリズムパラメトリック研究;フィッシング;ニューロン;機械学習;安全;フィッシング攻撃機械学習}、
